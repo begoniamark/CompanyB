@@ -1,0 +1,174 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+#myCarousel {
+    width: 100%;
+}
+.carousel-control {
+    margin-top: 20px;
+}
+.carousel-caption h3 {
+    color: #000000;
+}
+.one {
+    background: url(../products/men/shoe_1.jpg) no-repeat center center fixed; 
+}
+.two {
+    background: url(../products/female/shoe_2.jpg) no-repeat center center fixed; 
+}
+.three {
+    background: url(../products/children/shoe_2.jpg) no-repeat center center fixed; 
+}
+.home-section {
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    padding-top: 40px;
+    text-align: center;
+    background: #eee;
+}
+.about_container {
+    background: #fff;
+    border-radius: 10px;
+}
+.about_content p {
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 20px 20px 20px 20px;
+}
+.about_content h1 {
+    padding: 20px 0 0 0px;
+    text-align: center;
+}
+.about_side h3 {
+    padding: 20px 0 0 0px;
+    text-align: center;
+}
+.about_side p {
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px 30px 20px 30px;
+}
+.products_container {
+    background: #fff;
+    border-radius: 10px;
+}
+.products_container h1 {
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+.products-section {
+    padding-top: 50px;
+    background: #eee;
+}
+
+.contact-section {
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.contact_container {
+    background: #fff;
+    border-radius: 10px;  
+}
+.contact_container h3{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.contact_container form{
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+}
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+.products{
+    padding-top: 50px;
+}
+.product_image {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #c7c7c7;
+}
+.form-group {
+    text-align: left;
+}
+/* Sub Footer */
+#sub-footer {
+    background: #222;
+    border-top: 1px solid #444;
+    padding: 15px 0px;
+}
+#sub-footer-core {
+    padding: 0px 10px;
+}
+#sub-footer-core,
+#sub-footer-core a {
+    font-size: 11px;
+}
+#sub-footer-core {
+    color: #AAA;
+    text-align: center;
+}
+#sub-footer-core a {
+    color: #EEE;
+}
+#sub-footer-core a:hover {
+    color: #F33F3F
+}
+.nav-pills {
+    padding-left: 20px;
+}
+.nav-pills > li > a {
+    color: #777;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active >a:hover,
+.nav-pills > li > a:hover{
+    color: #333;
+    border-radius: 0;
+    border-bottom: 4px solid #000;
+    background: transparent;
+}
+#btnContactUs{
+    margin-bottom: 20px;
+}
+.brand a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.title a {
+    color: #000;
+    text-decoration: none;
+    font-style: italic;
+}
